@@ -8,6 +8,8 @@ var Minimatch = require("minimatch");
 // most @actions toolkit packages have async methods
 async function run() {
   try {
+
+    core.info("Running this check and just checking the debugging");
     const token = core.getInput("token", { required: true });
     const configPath = core.getInput("config");
     const octokit = new github.GitHub(token);
