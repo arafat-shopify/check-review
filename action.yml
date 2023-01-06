@@ -1,5 +1,5 @@
-name: 'Auto Assign Reviewer by Files'
-description: 'Automatically assigns reviewers based on changed files'
+name: 'Check Reviews by files'
+description: 'Check Reviews by files'
 branding:
   icon: 'at-sign'
   color: 'green'
